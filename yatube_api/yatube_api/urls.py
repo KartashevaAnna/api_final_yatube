@@ -17,12 +17,11 @@ urlpatterns = [
 ]
 
 schema_view = get_schema_view(
-   openapi.Info(
+    openapi.Info(
       title="Cats API",
       default_version='v1',
-      description="Документация для приложения cats проекта Kittygram",
-      # terms_of_service="URL страницы с пользовательским соглашением",
-      contact=openapi.Contact(email="admin@kittygram.ru"),
+      description="Документация для приложения api проекта Yatube",
+      contact=openapi.Contact(email="annakartashevamail@gmail.com"),
       license=openapi.License(name="BSD License"),
    ),
     public=True,

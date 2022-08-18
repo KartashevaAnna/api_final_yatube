@@ -37,3 +37,4 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+Available endpoints and request and reply examples can be found at http://127.0.0.1:8000/swagger/.

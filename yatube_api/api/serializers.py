@@ -48,7 +48,6 @@ class CommentSerializer(serializers.ModelSerializer):
         fields = ('author', 'post', 'text', 'created', 'id')
 
 
-
 class FollowSerializer(serializers.ModelSerializer):
     user = serializers.SlugRelatedField(
         read_only=True,

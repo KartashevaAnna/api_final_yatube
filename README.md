@@ -1,4 +1,5 @@
 # api_final
+##Running the project:
 ### Clone the repository:
 ```
 git@github.com:KartashevaAnna/api_final_yatube.git
@@ -37,4 +38,21 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-Available endpoints and request and reply examples can be found at http://127.0.0.1:8000/swagger/.
+
+##Developer:
+###Anna Kartasheva
+
+##Stack:
+Djnago Rest Framework. For more details please see requirements.txt
+
+##Available endpoints and request and reply examples:
+The project has a number of endpoints. For example, you send a GET request 
+to http://127.0.0.1:8000/api/v1/groups/, and you'll get a JSON response in the
+following format:
+{
+"id": 0,
+"title": "string",
+"slug": "string",
+"description": "string"
+}
+To get more examples, first run the project, then go to http://127.0.0.1:8000/swagger/.

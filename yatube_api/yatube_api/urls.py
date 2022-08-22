@@ -18,7 +18,7 @@ urlpatterns = [
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Cats API",
+        title="Posts API",
         default_version='v1',
         description="Документация для приложения api проекта Yatube",
         contact=openapi.Contact(email="annakartashevamail@gmail.com"),
